@@ -29,6 +29,10 @@ Software Evaluation Metrics Ontology (SEMO)
      + unpublished
        - I_should_write_a_paper
      - it_is_broken
+     - documention_is_missing
+     + documention_exists
+       - the_code_is_the_documentation
+       - documentation_is_embbeded
    - I_use_it_regularly
 
 ```

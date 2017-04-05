@@ -382,6 +382,44 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
+    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documention_is_missing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:16:47Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000024</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>
+    
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documention_exists</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:17:47Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000025</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>   
+    
+    
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the_code_is_the_documentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000025"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:18:47Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000026</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>   
+    
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documentation_is_embbeded</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000025"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:19:47Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000027</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>       
+    
 </rdf:RDF>
 
 
