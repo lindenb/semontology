@@ -15,32 +15,44 @@
 
 <xsl:template match="/">
 package com.github.lindenb.semontology;
+import java.util.Arrays;
+
 /**
  * Terms from https://github.com/lindenb/semontology
  * A java enum that can be used in your java projects.
  *
  * @author Pierre Lindenbaum PhD @yokofakun
  */
-@javax.annotation.Generated(value="xslt",date="<xsl:value-of select="x:date-time()"/>")
+@javax.annotation.Generated(value="xslt",date="<xsl:value-of select="x:date-time()"/>",comments="generated from https://github.com/lindenb/semontology")
 public enum Term
 {
-<xsl:for-each select="//owl:Class[not(owl:deprecated/text() = 'true')]">
+	<xsl:for-each select="//owl:Class[not(owl:deprecated/text() = 'true')]">
 <xsl:if test="position()!=1">,
 	</xsl:if>
-<xsl:value-of select="rdfs:label/text()"/><xsl:text>("</xsl:text><xsl:value-of select="oboInOwl:id/text()"/><xsl:text>")</xsl:text>
-</xsl:for-each>;
-private final String acn;
-Term(final String acn) { this.acn=acn;}
+<xsl:text>/** </xsl:text>
+<xsl:value-of select="rdfs:label/text()"/>
+<xsl:text> **/
+	</xsl:text>
+<xsl:value-of select="translate(oboInOwl:id/text(),':','_')"/><xsl:text>("</xsl:text><xsl:value-of select="rdfs:label/text()"/><xsl:text>")</xsl:text>
+</xsl:for-each>
+	;
+private final String label;
+Term(final String label) { this.label=label;}
 
-public String getAccession() { return this.acn;}
+public String getAccession() { return this.name().replace('_',':');}
+public String getLabel() { return this.label;}
+public static Term findByLabel(final String lbl)
+	{
+	return Arrays.stream(values()).
+			filter(T-&gt;T.getLabel().equals(lbl) ).
+			findAny().orElse(null);
+	}
 public static Term findByAccession(final String acn)
 	{
-	for(final Term t: Term.values()) {
-		if( t.getAccession().equals(acn) ) return t;
-		}
-	return null;
-	}
-	
+	return Arrays.stream(values()).
+		filter(T-&gt;T.getAccession().equals(acn)|| T.name().equals(acn)).
+		findAny().orElse(null);
+	}	
 public static void main(final String args[])
 	{
 	for(final Term t: Term.values()) System.out.println(t.name()+"\t"+t.getAccession());

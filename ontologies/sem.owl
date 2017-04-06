@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP.owl">
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05:04:2017 16:20</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06:04:2017 09:47</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:default-namespace>
@@ -103,6 +103,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:37:12Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000002</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shame on you, shame on you.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
     
@@ -111,8 +112,8 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_use_it_regularly</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_use_it_regularly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:24:58Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000003</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
@@ -124,7 +125,7 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_do_not_remember_why_I_wrote_it</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_do_not_remember_why_I_wrote_it</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:26:27Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000004</oboInOwl:id>
@@ -163,7 +164,7 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_do_not_accept_pull_requests</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_do_not_accept_pull_requests</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:28:54Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000007</oboInOwl:id>
@@ -189,7 +190,7 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_do_not_understand_how_it_could_work</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_do_not_understand_how_it_could_work</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:30:37Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000009</oboInOwl:id>
@@ -202,11 +203,12 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000010">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_should_write_some_tests</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_should_write_some_tests</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:31:10Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000010</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes, I should.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
     
@@ -215,7 +217,7 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_do_not_understand_my_code</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_do_not_understand_my_code</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">//When I wrote this, only God and I understood what I was doing
 //Now, God only knows
@@ -257,9 +259,10 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000014">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_would_not_write_it_like_that_now</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_would_not_write_it_like_that_now</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:32:45Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was young.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000014</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
@@ -270,11 +273,12 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_wrote_it_for_biostars</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_wrote_it_for_biostars</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000029"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:33:57Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000015</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.biostars.org/</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
     
@@ -283,7 +287,7 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000016">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_have_to_used_it_for_years</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_have_to_used_it_for_years</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T15:35:05Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000016</oboInOwl:id>
@@ -328,6 +332,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autogenerated, do not edit. All changes will be undone.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000019</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This tool was generated with a code generator like bison/flex, javacc...</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
     
@@ -362,12 +367,13 @@
     <!-- http://purl.obolibrary.org/obo/ID_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I_should_write_a_paper</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_should_write_a_paper</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000021"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T16:15:44Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000022</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes, I should.</rdfs:comment>
     </owl:Class>
     
 
@@ -383,6 +389,10 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
     
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000024 -->
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000024">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documention_is_missing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
@@ -392,34 +402,102 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
     </owl:Class>
     
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000025">
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000025">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documention_exists</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:17:47Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000025</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There is a documentation, somewhere ...</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
-    </owl:Class>   
+    </owl:Class>
     
-    
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000026">
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000026">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the_code_is_the_documentation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000025"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:18:47Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000026</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It&#39;s obvious when reading the code, isn&#39;t it?</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
-    </owl:Class>   
+    </owl:Class>
     
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000027">
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000027">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documentation_is_embbeded</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000025"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-05T21:19:47Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Documentation is generated by the software itself.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000027</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
-    </owl:Class>       
+    </owl:Class>
     
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">it_compiles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-06T09:13:58Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000028</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It compiles, at least.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_wrote_it_for_a_social_network</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000008"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-06T09:16:24Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000029</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">my_colleagues_use_it_regularly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-06T09:26:33Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000030</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It doesn&#39;t mean it&#39;s not buggy.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ID_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ID_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i_should_annotate_this_with_semontology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ID_0000001"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-06T09:46:02Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID:0000031</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inception.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEM</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</oboInOwl:created_by>
+    </owl:Class>
 </rdf:RDF>
 
 
